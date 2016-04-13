@@ -41,7 +41,8 @@ sleep(10)
 i01.head.rothead.moveTo(20, 40, 60, 90) #This is another approach I tried because head.rothead is the name on the service tab
 sleep(4) 
 ##################################
-right.publishState()
+right.publishState() #All of the digitalWrites below here are just the LEDs flashing, nothing else
+
 
 right.digitalWrite(22,1)
 right.digitalWrite(24,1)
